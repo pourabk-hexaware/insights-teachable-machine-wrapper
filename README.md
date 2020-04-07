@@ -1,4 +1,4 @@
-# Inisghts Demo Code - Python Wrapper for Google Teachable Machine
+# Insights Demo Code - Python Wrapper for Google Teachable Machine
 ##### A python based backend for hosting ML models from Google's Teachable Machine and Running demos on webcam
 &nbsp;
 
