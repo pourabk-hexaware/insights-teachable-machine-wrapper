@@ -26,16 +26,16 @@ This project uses a number of open source projects to work properly:
 This project requires the standard [Python](https://www.python.org/) 3.6+ to run `(Use 3.6 only, not 3.7 or 3.8)`
 
 ```sh
-$ git clone git@github.com:pourabk-hexaware/teachable-machine-wrapper.git
+$ git clone git@github.com:pourabk-hexaware/insights-teachable-machine-wrapper.git
 ```
 OR
 
 ```sh
-$ https://github.com/pourabk-hexaware/teachable-machine-wrapper.git
+$ https://github.com/pourabk-hexaware/insights-teachable-machine-wrapper.git
 ```
 
 ```sh
-$ cd teachable-machine-wrapper
+$ cd insights-teachable-machine-wrapper
 $ pip install -r requirements.txt
 ```
 #### Paste download Keras `keras_model.h5 and label.txt` files under`model` folder
@@ -49,7 +49,7 @@ $ python webcam.py
 $ python app.py
 ```
 
-#### REST endpoints 
+#### REST endpoints when running on local
 ###### `http://localhost:5000/detect` for for form-data uploads with key `'image'` or,
 ###### `base64` input { "image_string": "/9....." } as body using header `"application/json"`
 
